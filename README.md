@@ -27,7 +27,7 @@ def update_pair_counts(pair_counts, itemset):
                 pair_counts[(a, b)] += 1
 
 demo_pair_counts = defaultdict(int)
-demo_itemset = {'f', 'r', 'o', 'g'}
+demo_itemset = {'L', 'i', 'o', 'n'}
 
 update_pair_counts(demo_pair_counts, demo_itemset)
 
