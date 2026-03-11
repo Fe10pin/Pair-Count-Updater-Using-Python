@@ -1,6 +1,15 @@
 # Pair-Count-Updater-Using-Python
 This project implements a Python function that updates the frequency count of all ordered pairs of items within a given itemset. The solution uses `defaultdict` from Python’s `collections` module to efficiently track pair occurrences.
 
+## Function Description
+
+The function `update_pair_counts` receives:
+
+- `pair_counts`: a `defaultdict(int)` that stores pair frequencies.
+- `itemset`: a collection of unique items.
+
+It iterates through all possible ordered pairs in the itemset and updates their counts while avoiding self-pairs.
+
 from collections import defaultdict
 
 def update_pair_counts(pair_counts, itemset):
