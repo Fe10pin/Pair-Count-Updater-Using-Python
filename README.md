@@ -17,7 +17,6 @@ def update_pair_counts(pair_counts, itemset):
     Updates a dictionary of pair counts for
     all pairs of items in a given itemset.
     """
-    assert type(pair_counts) is defaultdict
 
     for a in itemset:
         for b in itemset:
